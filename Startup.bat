@@ -1,4 +1,4 @@
-call C:\Users\natha\AppData\Local\Programs\Python\Python36\python.exe C:\Users\natha\Documents\Scripts\coppyScreenshots.py
+call C:\Users\natha\Documents\Scripts\copyKSPScreenshots.bat
 
 call C:\Users\natha\Documents\Scripts\CopyMinecraftMods.bat
 

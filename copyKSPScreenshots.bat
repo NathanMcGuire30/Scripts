@@ -1,0 +1,3 @@
+call C:\Users\natha\AppData\Local\Programs\Python\Python36\python.exe C:\Users\natha\Documents\Scripts\copyScreenshots.py C:\Users\natha\Desktop\KSP_win64\Screenshots\ C:\Users\natha\Pictures\KSP_Screenshots\
+call C:\Users\natha\AppData\Local\Programs\Python\Python36\python.exe C:\Users\natha\Documents\Scripts\copyScreenshots.py C:\Users\natha\Desktop\KSP_win64_RSS\Screenshots\ C:\Users\natha\Pictures\KSP_Screenshots\
+call C:\Users\natha\AppData\Local\Programs\Python\Python36\python.exe C:\Users\natha\Documents\Scripts\copyScreenshots.py C:\Users\natha\Desktop\KSP_win64_1.4.3\Screenshots\ C:\Users\natha\Pictures\KSP_Screenshots\
