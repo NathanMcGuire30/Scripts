@@ -1,0 +1,5 @@
+./KSP.x86_64 -screen-fullscreen 0 -screen-width 1280 -screen-height 720 -force-gfx-direct
+
+grep -rli 'template6 "9b2694496c01f964571589990b592dfd"' * | xargs -i@ sed -i 's/template6 "9b2694496c01f964571589990b592dfd"/template6 "fd3f355f177aa33fd1240aad175de7bd"/g' @
+
+
