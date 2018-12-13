@@ -5,7 +5,7 @@ cpu_avg_samples 2
 default_color white
 default_shade_color black
 default_outline_color white
-own_window_colour 555753
+own_window_colour 000000
 color0 white
 color1 #333399
 color2 white
@@ -16,7 +16,7 @@ draw_outline no
 draw_shades no
 use_xft yes
 xftfont DejaVu Sans Mono:size=8
-gap_x 210
+gap_x 220
 gap_y 20
 minimum_size 5 10
 maximum_width 800
@@ -32,9 +32,9 @@ extra_newline no
 own_window_class Conky
 own_window yes
 own_window_type normal
-own_window_transparent yes
+own_window_transparent no
 own_window_argb_visual yes
-own_window_argb_value 0
+own_window_argb_value 128
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
  
 stippled_borders 0

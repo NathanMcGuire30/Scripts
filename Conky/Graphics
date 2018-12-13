@@ -15,7 +15,7 @@ draw_outline no
 draw_shades no
 
 gap_x 20
-gap_y 150
+gap_y 300
 net_avg_samples 2
 no_buffers yes
 out_to_console no
@@ -24,13 +24,13 @@ extra_newline no
 
 own_window yes
 own_window_type normal
-own_window_transparent yes
+own_window_transparent no
 own_window_colour 000000
 own_window_argb_visual yes
-own_window_argb_value 0
+own_window_argb_value 153
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
-minimum_size 220 220
+minimum_size 220 100
 
 temperature_unit fahrenheit
 
@@ -53,7 +53,7 @@ color3 grey
 
 TEXT
 ${color2}GPU Temp ${alignr}${color0}${nvidia temp} F
-${color2}Fan Speed ${alignr}${color0}${execi 5 nvidia-settings -q [fan:0]/GPUCurrentFanSpeed -t} %
+${color2}Fan Speed ${alignr}${color0}${execi 5 echo $(sensors | grep 'Video Fan' | cut -c16-19)*1/49 | bc} %
 ${color2}GPU Clock ${alignr}${color0}${nvidia gpufreq} MHz
 ${color2}Mem Clock ${alignr}${color0}${nvidia memfreq} MHz
 ${color2}Mem Used ${alignr}${color0}${execi 5 nvidia-settings -q [gpu:0]/UsedDedicatedGPUMemory -t} / ${exec nvidia-settings -q [gpu:0]/TotalDedicatedGPUMemory -t} MiB
