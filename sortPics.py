@@ -1,21 +1,26 @@
 import os
 import time
 import fnmatch
+import sys
 
 
 date = time.strftime("%Y-%m-%d_%H.%M.%S")
-destination="C:\\Users\\natha\\Pictures\\misc\\"
 
-print(date)
 
-os.system("ren \"C:\\Users\\natha\\Downloads\\*.jpg\" \"*.\"")
-os.system("ren \"C:\\Users\\natha\\Downloads\\*.\" \"*_\"" + date)
-os.system("ren \"C:\\Users\\natha\\Downloads\\*_" + date + "\" \"*_" + date + ".jpg\"")
+destination=str(sys.argv[1])				#Need to define destination in program call 
+source = str(sys.argv[2])					#Where to put files
 
-os.system("move C:\\Users\\natha\\Downloads\\*.jpg C:\\Users\\natha\\Pictures\\misc\\")
+files = os.listdir(source)
+jpgs = []
+pngs = []
 
-os.system("ren \"C:\\Users\\natha\\Downloads\\*.png\" \"*.\"")
-os.system("ren \"C:\\Users\\natha\\Downloads\\*.\" \"*_\"" + date)
-os.system("ren \"C:\\Users\\natha\\Downloads\\*_" + date + "\" \"*_" + date + ".png\"")
+for i in range (0, len(files)):
+		if ".jpg" in files[i]:
+			name = files[i].split(".")
+			print(source + files[i])
+			os.rename(source + files[i], destination + name[0] + "+" + date + ".jpg")
 
-os.system("move C:\\Users\\natha\\Downloads\\*.png C:\\Users\\natha\\Pictures\\misc\\")
+		if ".png" in files[i]:
+			name = files[i].split(".")
+			print(source + files[i])
+			os.rename(source + files[i], destination + name[0] + "+" + date + ".png")
