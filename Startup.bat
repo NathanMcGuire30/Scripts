@@ -3,6 +3,7 @@ call C:\Users\natha\Documents\Scripts\copyKSPScreenshots.bat
 call C:\Users\natha\Documents\Scripts\CopyMinecraftMods.bat
 
 call C:\Users\natha\Documents\Scripts\CopyMinecraftScreenshots.bat
+call C:\Users\natha\Documents\Scripts\CopySEScreenshots.bat
 
 call C:\Users\natha\Documents\Scripts\CopyMinecraftResourcePacks.bat
 
