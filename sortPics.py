@@ -15,7 +15,7 @@ jpgs = []
 pngs = []
 
 for i in range (0, len(files)):
-		if ".jpg" in files[i]:
+		if ".jpg" in files[i] or ".JPG" in files[i]:
 			name = files[i].split(".")
 			print(source + files[i])
 			os.rename(source + files[i], destination + name[0] + "+" + date + ".jpg")
