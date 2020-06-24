@@ -1,3 +1,3 @@
-call xcopy C:\Users\natha\Dropbox\NathanResourcePack C:\Users\natha\AppData\Roaming\.minecraft\resourcepacks\NathanResourcePack /e /y
-call xcopy C:\Users\natha\Dropbox\NathanResourcePack C:\Users\natha\AppData\Roaming\.minecraft2\resourcepacks\NathanResourcePack /e /y
-call xcopy C:\Users\natha\Dropbox\NathanResourcePack C:\Users\natha\AppData\Roaming\.minecraft3\resourcepacks\NathanResourcePack /e /y
+call xcopy C:\Users\natha\Dropbox\NathanResourcePack C:\Users\natha\AppData\Roaming\.minecraft\resourcepacks\NathanResourcePack\ /e /y
+call xcopy C:\Users\natha\Dropbox\NathanResourcePack C:\Users\natha\AppData\Roaming\.minecraft2\resourcepacks\NathanResourcePack\ /e /y
+call xcopy C:\Users\natha\Dropbox\NathanResourcePack C:\Users\natha\AppData\Roaming\.minecraft3\resourcepacks\NathanResourcePack\ /e /y 
