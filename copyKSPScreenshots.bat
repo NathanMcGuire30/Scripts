@@ -1,1 +1,2 @@
-call C:\Users\natha\AppData\Local\Programs\Python\Python38\python.exe C:\Users\natha\Documents\Scripts\copyScreenshots.py C:\Users\natha\Desktop\KSP_win64\Screenshots\ C:\Users\natha\Pictures\KSP_Screenshots\
+call python C:\Users\natha\Documents\Scripts\copyScreenshots.py C:\Users\natha\Desktop\KSP_win64\Screenshots\ C:\Users\natha\Pictures\KSP_Screenshots\
+call python C:\Users\natha\Documents\Scripts\copyScreenshots.py C:\Users\natha\Desktop\KSP_win64_RSS\Screenshots\ C:\Users\natha\Pictures\KSP_Screenshots\
